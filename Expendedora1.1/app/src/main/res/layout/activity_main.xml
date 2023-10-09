@@ -11,54 +11,44 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="346dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="40dp"
-        android:text="Compra más rapido, disfruta más rapido"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/frase"
         android:textColor="#029587"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/ingresar_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintHorizontal_bias="0.273"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/ingresar_button"
         android:layout_width="330dp"
         android:layout_height="52dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="496dp"
         android:backgroundTint="#2196F3"
-        android:text="Log In"
+        android:text="@string/ingre"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="177dp"
-        android:layout_height="28dp"
-        android:layout_marginBottom="104dp"
-        android:text="SPEEDYSNACKS"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginBottom="148dp"
+        android:text="@string/marca"
         android:textColor="#01AA9A"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/ingresar_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="185dp"
-        android:layout_height="30dp"
-        android:layout_marginBottom="52dp"
-        android:text="Recuperar contraceña ?"
-        android:textColor="#CDDC39"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.995"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -66,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:src="@drawable/logo"
-        android:contentDescription="logo"
+        android:contentDescription="@string/logomarca"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,10 +68,26 @@
         android:layout_height="52dp"
         android:layout_marginTop="576dp"
         android:backgroundTint="#445069"
-        android:text="Sing Up"
+        android:text="@string/crearuser"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:text="@string/recuperar"
+        android:textColor="#FDFCFC"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

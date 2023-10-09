@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Expendedora 1.1</string>
+    <string name="marca">SPEEDYSPEED</string>
+    <string name="crearuser">Sing Up</string>
+    <string name="ingre">Log In</string>
+    <string name="frase">Compra más Rapido, disfruta más rapido</string>
+    <string name="recuperar">Recuperar Contraceña?</string>
+    <string name="logomarca">logo</string>
 </resources>
